@@ -1,0 +1,15 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.13, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\Hurshita Gupta\OneDrive\Desktop\communication_in_agents\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Hurshita Gupta\OneDrive\Desktop\communication_in_agents
+configfile: pyproject.toml
+plugins: anyio-4.15.1
+collecting ... collected 5 items
+
+tests/test_correlation_trace.py::test_trace_event_is_added PASSED        [ 20%]
+tests/test_correlation_trace.py::test_causation_id_is_recorded PASSED    [ 40%]
+tests/test_correlation_trace.py::test_same_correlation_id_tracks_flow PASSED [ 60%]
+tests/test_correlation_trace.py::test_missing_correlation_id_is_rejected PASSED [ 80%]
+tests/test_correlation_trace.py::test_trace_step_limit_is_enforced PASSED [100%]
+
+============================== 5 passed in 0.07s ==============================
