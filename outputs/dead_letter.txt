@@ -1,0 +1,25 @@
+[
+  {
+    "status": "delivery_failed",
+    "attempt": 1,
+    "recipient": "unknown_agent"
+  },
+  {
+    "status": "delivery_failed",
+    "attempt": 2,
+    "recipient": "unknown_agent"
+  },
+  {
+    "status": "dead_lettered",
+    "record": {
+      "recipient": "unknown_agent",
+      "correlation_id": "9d07a2b1-20f8-49db-a066-e1da6edd5c47",
+      "reason": "delivery failed after retries",
+      "attempts": 2
+    }
+  },
+  {
+    "status": "rejected",
+    "error": "dead letter reason is required"
+  }
+]
