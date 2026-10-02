@@ -1,0 +1,16 @@
+[
+  {
+    "status": "acknowledged",
+    "sender": "executor",
+    "recipient": "planner",
+    "kind": "ack",
+    "payload": {
+      "status": "received",
+      "correlation_id": "62b8ad27-96d7-4579-99a1-9b2765a169be"
+    }
+  },
+  {
+    "status": "rejected",
+    "error": "cannot acknowledge an acknowledgement"
+  }
+]
