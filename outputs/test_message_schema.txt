@@ -1,0 +1,12 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.13, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\Hurshita Gupta\OneDrive\Desktop\communication_in_agents\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Hurshita Gupta\OneDrive\Desktop\communication_in_agents
+configfile: pyproject.toml
+plugins: anyio-4.15.1
+collecting ... collected 2 items
+
+tests/test_message_schema.py::test_valid_message PASSED                  [ 50%]
+tests/test_message_schema.py::test_invalid_message_kind PASSED           [100%]
+
+============================== 2 passed in 0.04s ==============================

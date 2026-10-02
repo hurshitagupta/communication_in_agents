@@ -1,0 +1,18 @@
+[
+  {
+    "status": "success",
+    "message": {
+      "kind": "task",
+      "sender": "planner",
+      "recipient": "executor",
+      "payload": {
+        "action": "lookup"
+      },
+      "correlation_id": "8224c7a7-c589-4fa5-92d6-19c317ebca82"
+    }
+  },
+  {
+    "status": "rejected",
+    "error": "unsupported message kind"
+  }
+]
