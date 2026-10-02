@@ -1,0 +1,14 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.13, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\Hurshita Gupta\OneDrive\Desktop\communication_in_agents\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Hurshita Gupta\OneDrive\Desktop\communication_in_agents
+configfile: pyproject.toml
+plugins: anyio-4.15.1
+collecting ... collected 4 items
+
+tests/test_routing.py::test_route_to_executor PASSED                     [ 25%]
+tests/test_routing.py::test_route_to_reviewer PASSED                     [ 50%]
+tests/test_routing.py::test_unknown_recipient_is_rejected PASSED         [ 75%]
+tests/test_routing.py::test_empty_recipient_is_rejected PASSED           [100%]
+
+============================== 4 passed in 0.04s ==============================

@@ -1,0 +1,12 @@
+[
+  {
+    "status": "routed",
+    "recipient": "executor",
+    "destination": "executor_queue",
+    "correlation_id": "35b08e72-ab46-4a90-96bf-59c785b93855"
+  },
+  {
+    "status": "rejected",
+    "error": "unknown recipient"
+  }
+]
